@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Unit Converter</title>
+        <link rel="icon" type="image/png" href="sync (1).png">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Unit Converter</h1>
+
+            <form class="quantity">
+                <label>Quantity:</label>
+                <select id="quantity-select">
+                    <option value="length">Length</option>
+                    <option value="volume">Volume</option>
+                    <option value="mass">Mass</option>
+                    <option value="time">Time</option>
+                    <option value="temperature">Temperature</option>
+                </select>
+            </form>
+
+            <form class="conversion">
+                <input type="number" id="num-input" value="20">
+                <p id="equal">=</p>
+                <input type="number" id="num-output" value="20">
+            </form>
+            
+            <form class="units">
+                <select class="unit-select" id="unit-in">
+                    <option value="metre">Metre</option>
+                    <option value="kilometre">Kilometre</option>
+                    <option value="centimetre">Centimetre</option>
+                    <option value="milimetre">Milimetre</option>
+                    <option value="micrometre">Micrometre</option>
+                    <option value="nanometer">Nanometre</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                    <option value="yard">Yard</option>
+                </select>
+
+                <select class="unit-select" id="unit-out">
+                    <option value="metre">Metre</option>
+                    <option value="kilometre">Kilometre</option>
+                    <option value="centimetre">Centimetre</option>
+                    <option value="milimetre">Milimetre</option>
+                    <option value="micrometre">Micrometre</option>
+                    <option value="nanometer">Nanometre</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                    <option value="yard">Yard</option>
+                </select>
+            </form>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
